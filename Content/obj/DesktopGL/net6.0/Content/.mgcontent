@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SourceFileCollection xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Profile>Reach</Profile>
+  <Platform>DesktopGL</Platform>
+  <Config />
+  <SourceFiles>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Fonts/anton.spritefont</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Fonts/dot_gothic_16.spritefont</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Fonts/play_bold.spritefont</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Fonts/play_regular.spritefont</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sounds/sound_tweet.wav</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sounds/sound_zardax.mp3</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sprites/ball.png</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sprites/game_plan.png</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sprites/player_one.png</File>
+    <File>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sprites/player_two.png</File>
+  </SourceFiles>
+  <DestFiles>
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+    <File xsi:nil="true" />
+  </DestFiles>
+</SourceFileCollection>
