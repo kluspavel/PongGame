@@ -57,8 +57,5 @@ namespace PongGame
             direction.X = random.Next(1, 10) <= 5 ? -5 : 5;
             direction.Y = random.Next(1, 5) * (random.Next(1, 10) <= 5 ? -1 : 1);
         }
-        
-
-
     }
 }

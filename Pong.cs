@@ -22,6 +22,8 @@ namespace PongGame
 
         private Texture2D gamePlan;
 
+        private Player playerOne, playerTwo;
+
         private Ball ball;
         private Score score;
         //----------------------------------------------------------------------------------------------------------------------------
@@ -56,8 +58,11 @@ namespace PongGame
 
             gamePlan = Content.Load<Texture2D>(@"Sprites\game_plan");
 
+            playerOne = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(10, 0), new Vector2(0, 0), 5, playField);
+            playerTwo = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(1280 - 20 - 10, 0), new Vector2(0, 0), 5, playField);
             ball = new Ball(Content.Load<Texture2D>(@"Sprites\ball"), new Vector2(0, 0), new Vector2(0, 0), 5, playField);
             score = new Score(fontDotGothic, Color.DarkBlue, playField, ball);
+            
 
 
 
@@ -76,6 +81,8 @@ namespace PongGame
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape)) { Exit(); }
                
             // TODO: Add your update logic here
+            playerOne.Update(gameTime);
+            playerTwo.Update(gameTime);
             ball.Update(gameTime);
             score.Update(gameTime);
             
@@ -90,6 +97,8 @@ namespace PongGame
             spriteBatch.Begin();
 
             spriteBatch.Draw(gamePlan, new Vector2(0, 0), Color.White);
+            playerOne.Draw(spriteBatch);
+            playerTwo.Draw(spriteBatch);
             ball.Draw(spriteBatch);
             score.Draw(spriteBatch);
             
