@@ -62,13 +62,13 @@ namespace PongGame
             if (ball.Position.X > playField.Width)
             {
                 ScoreFirst++;
-                ball.SetStartPosition();
+                //ball.SetStartPosition();
             }
 
             if (ball.Position.X < -20)
             {
                 scoreSecond++;
-                ball.SetStartPosition();
+                //ball.SetStartPosition();
             }
 
             text = scoreFirst.ToString().PadLeft(2, '0') + "   " + scoreSecond.ToString().PadLeft(2, '0');

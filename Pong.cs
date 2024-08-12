@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System.Collections.Generic;
 
 namespace PongGame
 {
@@ -20,7 +21,16 @@ namespace PongGame
 
         private SpriteFont fontDotGothic;
 
-        private Texture2D gamePlan;
+        private Sprite gamePlan;
+
+        private List<Player> playerList;
+
+
+
+
+
+
+
 
         private Player playerOne, playerTwo;
 
@@ -56,12 +66,21 @@ namespace PongGame
 
             fontDotGothic = Content.Load<SpriteFont>(@"Fonts\dot_gothic_16");
 
-            gamePlan = Content.Load<Texture2D>(@"Sprites\game_plan");
+            gamePlan = new Sprite(Content.Load<Texture2D>(@"Sprites\game_plan")) { Position= new Vector2(0, 0), };
 
-            playerOne = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(10, 0), new Vector2(0, 0), 5, playField);
-            playerTwo = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(1280 - 20 - 10, 0), new Vector2(0, 0), 5, playField);
-            ball = new Ball(Content.Load<Texture2D>(@"Sprites\ball"), new Vector2(0, 0), new Vector2(0, 0), 5, playField);
-            score = new Score(fontDotGothic, Color.DarkBlue, playField, ball);
+            Texture2D playerOne = Content.Load<Texture2D>(@"Sprites\player_one");
+            Texture2D playerTwo = Content.Load<Texture2D>(@"Sprites\player_two");
+
+            playerList = new List<Player>()
+            {
+                new(playerOne) { Position = new Vector2(10, 100), Input = new Input() { Up = Keys.W, Down = Keys.S } },
+                new(playerTwo) { Position = new Vector2(winSize.Width - 30, 100), Input = new Input() { Up = Keys.Up, Down = Keys.Down } },
+            };
+
+            //playerOne = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(10, 0), new Vector2(0, 0), 5, playField);
+            //playerTwo = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(1280 - 20 - 10, 0), new Vector2(0, 0), 5, playField);
+            //ball = new Ball(Content.Load<Texture2D>(@"Sprites\ball"), new Vector2(0, 0), new Vector2(0, 0), 5, playField);
+            //score = new Score(fontDotGothic, Color.DarkBlue, playField, ball);
             
 
 
@@ -79,12 +98,20 @@ namespace PongGame
         protected override void Update(GameTime gameTime)
         {
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape)) { Exit(); }
-               
+
             // TODO: Add your update logic here
-            playerOne.Update(gameTime);
-            playerTwo.Update(gameTime);
-            ball.Update(gameTime);
-            score.Update(gameTime);
+
+            foreach (var player in playerList) 
+            {
+                player.Update();
+            }
+
+
+
+            //playerOne.Update(gameTime);
+            //playerTwo.Update(gameTime);
+            //ball.Update(gameTime);
+            //score.Update(gameTime);
             
             base.Update(gameTime);
         }
@@ -96,12 +123,26 @@ namespace PongGame
             // TODO: Add your drawing code here
             spriteBatch.Begin();
 
-            spriteBatch.Draw(gamePlan, new Vector2(0, 0), Color.White);
-            playerOne.Draw(spriteBatch);
-            playerTwo.Draw(spriteBatch);
-            ball.Draw(spriteBatch);
-            score.Draw(spriteBatch);
-            
+            gamePlan.Draw(spriteBatch);
+
+            foreach (var player in playerList)
+            {
+                player.Draw(spriteBatch);
+            }
+
+
+
+
+
+
+
+
+
+            //playerOne.Draw(spriteBatch);
+            //playerTwo.Draw(spriteBatch);
+            //ball.Draw(spriteBatch);
+            //score.Draw(spriteBatch);
+
             spriteBatch.End();
 
             base.Draw(gameTime);
