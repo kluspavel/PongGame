@@ -61,11 +61,11 @@ namespace PongGame
         {
             if (ball.Position.X > playField.Width)
             {
-                ScoreFirst++;
+                scoreFirst++;
                 //ball.SetStartPosition();
             }
 
-            if (ball.Position.X < -20)
+            if (ball.Position.X < - 20)
             {
                 scoreSecond++;
                 //ball.SetStartPosition();

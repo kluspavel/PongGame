@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sprites/game_plan.png</SourceFile>
-  <SourceTime>2024-08-12T21:26:37.5082673+02:00</SourceTime>
-  <DestFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sprites/game_plan.xnb</DestFile>
-  <DestTime>2024-08-12T21:26:42.4645572+02:00</DestTime>
+  <SourceFile>D:/PROJEKTY/01.001_pong_game/PongGame/Content/Sprites/game_plan.png</SourceFile>
+  <SourceTime>2024-08-13T10:55:54.2676797+02:00</SourceTime>
+  <DestFile>D:/PROJEKTY/01.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sprites/game_plan.xnb</DestFile>
+  <DestTime>2024-08-13T12:21:22.7795569+02:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>

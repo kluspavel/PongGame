@@ -24,17 +24,8 @@ namespace PongGame
         private Sprite gamePlan;
 
         private List<Player> playerList;
+        private List<Ball> ballList;
 
-
-
-
-
-
-
-
-        private Player playerOne, playerTwo;
-
-        private Ball ball;
         private Score score;
         //----------------------------------------------------------------------------------------------------------------------------
         public Pong()
@@ -73,15 +64,23 @@ namespace PongGame
 
             playerList = new List<Player>()
             {
-                new(playerOne) { Position = new Vector2(10, 100), Input = new Input() { Up = Keys.W, Down = Keys.S } },
-                new(playerTwo) { Position = new Vector2(winSize.Width - 30, 100), Input = new Input() { Up = Keys.Up, Down = Keys.Down } },
+                new(playerOne) { Position = new Vector2(10, winSize.Height / 2 - playerOne.Height / 2), Input = new Input() { Up = Keys.W, Down = Keys.S } },
+                new(playerTwo) { Position = new Vector2(winSize.Width - 30, winSize.Height / 2 - playerTwo.Height / 2), Input = new Input() { Up = Keys.Up, Down = Keys.Down } },
+            };
+
+            Texture2D ballOne = Content.Load<Texture2D>(@"Sprites\ball");
+            Texture2D ballTwo = Content.Load<Texture2D>(@"Sprites\ball");
+
+            ballList = new List<Ball>()
+            {
+                new(ballOne) { },
             };
 
             //playerOne = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(10, 0), new Vector2(0, 0), 5, playField);
             //playerTwo = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(1280 - 20 - 10, 0), new Vector2(0, 0), 5, playField);
             //ball = new Ball(Content.Load<Texture2D>(@"Sprites\ball"), new Vector2(0, 0), new Vector2(0, 0), 5, playField);
             //score = new Score(fontDotGothic, Color.DarkBlue, playField, ball);
-            
+
 
 
 
@@ -106,13 +105,18 @@ namespace PongGame
                 player.Update();
             }
 
+            foreach (var ball in ballList)
+            {
+                ball.Update();
+            }
+
 
 
             //playerOne.Update(gameTime);
             //playerTwo.Update(gameTime);
             //ball.Update(gameTime);
             //score.Update(gameTime);
-            
+
             base.Update(gameTime);
         }
         //----------------------------------------------------------------------------------------------------------------------------
@@ -130,6 +134,10 @@ namespace PongGame
                 player.Draw(spriteBatch);
             }
 
+            foreach (var ball in ballList)
+            {
+                ball.Draw(spriteBatch);
+            }
 
 
 

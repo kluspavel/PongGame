@@ -9,62 +9,65 @@ namespace PongGame
 {
     class Ball : Sprite
     {
+        private Texture2D texture;
+        private float speedX = 5f;
+        private float speedY = 5f;
         //----------------------------------------------------------------------------------------------------------------------------
         public Ball(Texture2D texture) : base(texture)
         {
-            
+            this.texture = texture;
+            SetStartPosition();
         }
+        //----------------------------------------------------------------------------------------------------------------------------
+        public override void Update()
+        {
+            Move();
+        }
+        //----------------------------------------------------------------------------------------------------------------------------
+        private void Move()
+        {
+            Position.X += speedX;
+            if (Position.X < 10)
+            {
+                Position.X = 10;
+                speedX *= -1;
+            }
 
+            if (Position.X > 1280 - texture.Width - 10) 
+            {
+                
+                Position.X = 1280 - texture.Width - 10;
+                speedX *= -1;
+            }
 
+            Position.Y += speedY;
+            if (Position.Y < 15)
+            {
+                Position.Y = 15;
+                speedY *= -1;
+            }
 
+            if (Position.Y > 720 - texture.Height - 15)
+            {
+                Position.Y = 720 - texture.Height - 15;
+                speedY *= -1;
+            }
+        }
+        //----------------------------------------------------------------------------------------------------------------------------
+        public override void Draw(SpriteBatch spriteBatch)
+        {
+            spriteBatch.Draw(texture, Position, Color.White);
+        }
+        //----------------------------------------------------------------------------------------------------------------------------
+        public void SetStartPosition()
+        {
+            Position.X = 1280 / 2 - texture.Width / 2;
+            Position.Y = 720 / 2 - texture.Height / 2;
 
-        ////----------------------------------------------------------------------------------------------------------------------------
-        //public Ball(Texture2D texture, Vector2 position, Vector2 direction, float speed, Rectangle playField) : base(texture, position, direction, speed, playField)
-        //{
-        //    SetStartPosition();
-        //}
-        ////----------------------------------------------------------------------------------------------------------------------------
-        //public override void Update(GameTime gameTime)
-        //{
-        //    BoundsScreen();
-        //    base.Update(gameTime);
-        //}
-        ////----------------------------------------------------------------------------------------------------------------------------
-        //private void BoundsScreen()
-        //{
-        //    if (position.X > playField.Width - texture.Width - 10)
-        //    {
-        //        direction.X *= -1;
-        //        position.X = playField.Width - texture.Width - 10;
-        //    }
-
-        //    if (position.X < playField.X + 10)
-        //    {
-        //        direction.X *= -1;
-        //        position.X = playField.X + 10;
-        //    }
-
-        //    if (position.Y > playField.Height - texture.Height - 15)
-        //    {
-        //        direction.Y *= -1;
-        //        position.Y = playField.Height - texture.Height - 15;
-        //    }
-
-        //    if (position.Y < playField.Y + 15)
-        //    {
-        //        direction.Y *= -1;
-        //        position.Y = playField.Y + 15;
-        //    }
-        //}
-        ////----------------------------------------------------------------------------------------------------------------------------
-        //public void SetStartPosition()
-        //{
-        //    position.X = playField.Width / 2 - texture.Width / 2;
-        //    position.Y = playField.Height / 2 - texture.Height / 2;
-
-        //    Random random = new();
-        //    direction.X = random.Next(1, 10) <= 5 ? -5 : 5;
-        //    direction.Y = random.Next(1, 5) * (random.Next(1, 10) <= 5 ? -1 : 1);
-        //}
+            Random random = new();
+            speedX = random.Next(1, 10) <= 5 ? -5 : 5;
+            speedY = random.Next(1, 5) * (random.Next(1, 10) <= 5 ? -1 : 1);
+        }
+        //----------------------------------------------------------------------------------------------------------------------------
     }
 }

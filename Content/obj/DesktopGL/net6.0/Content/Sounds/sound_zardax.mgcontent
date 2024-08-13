@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sounds/sound_zardax.mp3</SourceFile>
-  <SourceTime>2024-08-10T21:44:41.7650771+02:00</SourceTime>
-  <DestFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sounds/sound_zardax.xnb</DestFile>
-  <DestTime>2024-08-12T20:49:19.2990562+02:00</DestTime>
+  <SourceFile>D:/PROJEKTY/01.001_pong_game/PongGame/Content/Sounds/sound_zardax.mp3</SourceFile>
+  <SourceTime>2024-08-12T07:28:58.7241547+02:00</SourceTime>
+  <DestFile>D:/PROJEKTY/01.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sounds/sound_zardax.xnb</DestFile>
+  <DestTime>2024-08-13T12:21:22.550872+02:00</DestTime>
   <Importer>Mp3Importer</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>SongProcessor</Processor>
@@ -15,6 +15,6 @@
   <Dependencies />
   <BuildAsset />
   <BuildOutput>
-    <string>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sounds/sound_zardax.ogg</string>
+    <string>D:/PROJEKTY/01.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sounds/sound_zardax.ogg</string>
   </BuildOutput>
 </PipelineBuildEvent>
