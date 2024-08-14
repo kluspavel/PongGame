@@ -3,52 +3,58 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System.Collections.Generic;
 
 namespace PongGame
 {
     public class Player : Sprite
     {
-        private Texture2D texture;
         //----------------------------------------------------------------------------------------------------------------------------
-        public Input Input { get; set; }
-        public float Speed { get; set; }
-        //----------------------------------------------------------------------------------------------------------------------------
-        public Player(Texture2D texture) : base(texture) 
+        public Player(Texture2D texture, Rectangle field) : base(texture, field) 
         { 
             this.texture = texture;
-            Speed = 5f;
+            this.field = field;
+            Speed.X = 0f;
+            Speed.Y = 6f;
         }
         //----------------------------------------------------------------------------------------------------------------------------
-        public override void Update()
+        public override void Update(GameTime gameTime, List<Sprite> sprites)
         {
             Move();
+
+            if (Velocity.Y < 0 && IsOutOfTop(15))
+            {
+                Velocity.Y = 0;
+                Position.Y = 15;
+            }
+            else if (Velocity.Y > 0 && IsOutOfBottom(-15))
+            {
+                Velocity.Y = 0;
+                Position.Y = field.Bottom - texture.Height - 15;
+            }
+
+            Position += Velocity;
+
+            if (Velocity.Y != 0)
+            {
+                Velocity.Y = 0;
+            }
         }
         //----------------------------------------------------------------------------------------------------------------------------
         private void Move() 
         {
-            if (Keyboard.GetState().IsKeyDown(Input.Up))
+            if (Keyboard.GetState().IsKeyDown(Input.Up) && Keyboard.GetState().IsKeyDown(Input.Down))
             {
-                Position.Y -= Speed;
-                if (Position.Y < 15)
-                {
-                    Position.Y = 15;
-                }
+                Velocity.Y = 0;
             }
-
-            if (Keyboard.GetState().IsKeyDown(Input.Down))
+            else if (Keyboard.GetState().IsKeyDown(Input.Up))
             {
-                Position.Y += Speed;
-                if (Position.Y > 720 - texture.Height - 15)
-                {
-                    Position.Y = 720 - texture.Height - 15;
-                }
+                Velocity.Y = -Speed.Y;
+            }
+            else if (Keyboard.GetState().IsKeyDown(Input.Down))
+            {
+                Velocity.Y = Speed.Y;
             }
         }
-        //----------------------------------------------------------------------------------------------------------------------------
-        public override void Draw(SpriteBatch spriteBatch)
-        {
-            spriteBatch.Draw(texture, Position, Color.White);
-        }
-        //---------------------------------------------------------------------------------------------------------------------------
     }
 }

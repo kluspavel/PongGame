@@ -57,15 +57,15 @@ namespace PongGame
 
             fontDotGothic = Content.Load<SpriteFont>(@"Fonts\dot_gothic_16");
 
-            gamePlan = new Sprite(Content.Load<Texture2D>(@"Sprites\game_plan")) { Position= new Vector2(0, 0), };
+            gamePlan = new Sprite(Content.Load<Texture2D>(@"Sprites\game_plan"), playField) { Position= new Vector2(0, 0), };
 
             Texture2D playerOne = Content.Load<Texture2D>(@"Sprites\player_one");
             Texture2D playerTwo = Content.Load<Texture2D>(@"Sprites\player_two");
 
             playerList = new List<Player>()
             {
-                new(playerOne) { Position = new Vector2(10, winSize.Height / 2 - playerOne.Height / 2), Input = new Input() { Up = Keys.W, Down = Keys.S } },
-                new(playerTwo) { Position = new Vector2(winSize.Width - 30, winSize.Height / 2 - playerTwo.Height / 2), Input = new Input() { Up = Keys.Up, Down = Keys.Down } },
+                new(playerOne, playField) { Position = new Vector2(10, winSize.Height / 2 - playerOne.Height / 2), Input = new Input() { Up = Keys.W, Down = Keys.S } },
+                new(playerTwo, playField) { Position = new Vector2(winSize.Width - 30, winSize.Height / 2 - playerTwo.Height / 2), Input = new Input() { Up = Keys.Up, Down = Keys.Down } },
             };
 
             Texture2D ballOne = Content.Load<Texture2D>(@"Sprites\ball");
@@ -73,7 +73,7 @@ namespace PongGame
 
             ballList = new List<Ball>()
             {
-                new(ballOne) { },
+                new(ballOne, playField) { },
             };
 
             //playerOne = new Player(Content.Load<Texture2D>(@"Sprites\player_one"), new Vector2(10, 0), new Vector2(0, 0), 5, playField);
@@ -102,12 +102,12 @@ namespace PongGame
 
             foreach (var player in playerList) 
             {
-                player.Update();
+                player.Update(gameTime, new List<Sprite>());
             }
 
             foreach (var ball in ballList)
             {
-                ball.Update();
+                ball.Update(gameTime, new List<Sprite>());
             }
 
 

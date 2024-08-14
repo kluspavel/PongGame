@@ -3,24 +3,24 @@
   "WorkspaceRootPath": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,11 +30,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Score.cs",
               "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Score.cs",
               "RelativeDocumentMoniker": "Score.cs",
@@ -53,46 +53,46 @@
               "RelativeDocumentMoniker": "Pong.cs",
               "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Pong.cs",
               "RelativeToolTip": "Pong.cs",
-              "ViewState": "AQIAAA4AAAAAAAAAAAAqwEsAAAAhAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T16:52:54.924Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ball.cs",
               "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Ball.cs",
               "RelativeDocumentMoniker": "Ball.cs",
               "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Ball.cs",
               "RelativeToolTip": "Ball.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEYAAACGAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAAMwC4AAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T12:28:48.893Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
               "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Player.cs",
               "RelativeDocumentMoniker": "Player.cs",
               "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Player.cs",
               "RelativeToolTip": "Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAADYAAAAAAAAA",
+              "ViewState": "AQIAABEAAAAAAAAAAAAAADkAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T12:22:21.06Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Sprite.cs",
               "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprite.cs",
               "RelativeDocumentMoniker": "Sprite.cs",
               "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprite.cs",
               "RelativeToolTip": "Sprite.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAkAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAAAqwFMAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T11:53:11.133Z",
               "EditorCaption": ""
