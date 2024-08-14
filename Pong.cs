@@ -3,6 +3,7 @@ using Microsoft.Xna.Framework.Audio;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Media;
+using System;
 using System.Collections.Generic;
 
 namespace PongGame
@@ -13,7 +14,10 @@ namespace PongGame
         private GraphicsDeviceManager graphics;
         private SpriteBatch spriteBatch;
 
-        private System.Drawing.Size winSize;
+        public static int ScreenWidth;
+        public static int ScreenHeight;
+        public static Random Random;
+
         private Rectangle playField;
 
         private SoundEffect soundTweet;
@@ -33,15 +37,14 @@ namespace PongGame
             graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
-            winSize = new System.Drawing.Size(1280, 720);
-            playField = new Rectangle(0, 0, winSize.Width, winSize.Height);
         }
         //----------------------------------------------------------------------------------------------------------------------------
         protected override void Initialize()
         {
             // TODO: Add your initialization logic here
-            graphics.PreferredBackBufferWidth = winSize.Width;
-            graphics.PreferredBackBufferHeight = winSize.Height;
+            ScreenWidth = graphics.PreferredBackBufferWidth = 1280;
+            ScreenHeight = graphics.PreferredBackBufferHeight = 720;
+            Random = new Random();
             graphics.IsFullScreen = false;
             graphics.ApplyChanges();
             base.Initialize();
