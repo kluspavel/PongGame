@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sounds/sound_tweet.wav</SourceFile>
-  <SourceTime>2024-08-14T19:48:24.7995163+02:00</SourceTime>
-  <DestFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sounds/sound_tweet.xnb</DestFile>
-  <DestTime>2024-08-15T17:45:05.6066833+02:00</DestTime>
+  <SourceFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Sounds/player_bounce.wav</SourceFile>
+  <SourceTime>2024-08-15T19:24:53.6839963+02:00</SourceTime>
+  <DestFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Sounds/player_bounce.xnb</DestFile>
+  <DestTime>2024-08-15T19:27:30.5856503+02:00</DestTime>
   <Importer>WavImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>SoundEffectProcessor</Processor>

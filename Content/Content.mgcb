@@ -48,6 +48,24 @@
 /processorParam:TextureFormat=Compressed
 /build:Fonts/text_font.spritefont
 
+#begin Sounds/level_up.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/level_up.wav
+
+#begin Sounds/player_bounce.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/player_bounce.wav
+
+#begin Sounds/sound_tweet.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/sound_tweet.wav
+
 #begin Sounds/sound_tweet.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
@@ -59,6 +77,12 @@
 /processor:SongProcessor
 /processorParam:Quality=Best
 /build:Sounds/sound_zardax.mp3
+
+#begin Sounds/wall_bounce.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:Sounds/wall_bounce.wav
 
 #begin Sprites/ball.png
 /importer:TextureImporter

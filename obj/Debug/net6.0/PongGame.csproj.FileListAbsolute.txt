@@ -73,3 +73,7 @@ D:\PROJEKTY\01.001_pong_game\PongGame\obj\Debug\net6.0\PongGame.genruntimeconfig
 D:\PROJEKTY\01.001_pong_game\PongGame\obj\Debug\net6.0\ref\PongGame.dll
 D:\Projects Data\Csh Projects\06.001_pong_game\PongGame\obj\Debug\net6.0\PongGame.sourcelink.json
 D:\PROJEKTY\01.001_pong_game\PongGame\bin\Debug\net6.0\Content\Fonts\text_font.xnb
+D:\Projects Data\Csh Projects\06.001_pong_game\PongGame\bin\Debug\net6.0\Content\Fonts\text_font.xnb
+D:\Projects Data\Csh Projects\06.001_pong_game\PongGame\bin\Debug\net6.0\Content\Sounds\level_up.xnb
+D:\Projects Data\Csh Projects\06.001_pong_game\PongGame\bin\Debug\net6.0\Content\Sounds\player_bounce.xnb
+D:\Projects Data\Csh Projects\06.001_pong_game\PongGame\bin\Debug\net6.0\Content\Sounds\wall_bounce.xnb

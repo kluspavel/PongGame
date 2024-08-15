@@ -19,9 +19,9 @@ namespace PongGame.Sprites
             spriteBatch.DrawString(font, GetText(ScoreOne), new Vector2(GetTextWidth(GetText(ScoreOne), -50), 30), Color.Blue);
         }
         //----------------------------------------------------------------------------------------------------------------------------
-        public string GetText(int number, int numberChars = 2)
+        public string GetText(int number, int charsCount = 2)
         {
-            return number.ToString().PadLeft(numberChars, '0');
+            return number.ToString().PadLeft(charsCount, '0');
         }
         //----------------------------------------------------------------------------------------------------------------------------
         public float GetTextWidth(string text, float offset)

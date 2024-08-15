@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\",
+  "WorkspaceRootPath": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\sprites\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprites\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\sprites\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprites\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\sprites\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projects data\\csh projects\\06.001_pong_game\\ponggame\\sprites\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprites\\score.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\sprites\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projects data\\csh projects\\06.001_pong_game\\ponggame\\sprites\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprites\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projekty\\01.001_pong_game\\ponggame\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projects data\\csh projects\\06.001_pong_game\\ponggame\\sprites\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprites\\ball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projects data\\csh projects\\06.001_pong_game\\ponggame\\sprites\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprites\\info.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projects data\\csh projects\\06.001_pong_game\\ponggame\\sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:sprites\\sprite.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|d:\\projects data\\csh projects\\06.001_pong_game\\ponggame\\pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1B8804A6-B600-448F-B734-A595DFCE5956}|PongGame.csproj|solutionrelative:pong.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,82 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Info.cs",
-              "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Info.cs",
+              "DocumentMoniker": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Info.cs",
               "RelativeDocumentMoniker": "Sprites\\Info.cs",
-              "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Info.cs",
-              "RelativeToolTip": "Sprites\\Info.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAhAAAA",
+              "ToolTip": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Info.cs*",
+              "RelativeToolTip": "Sprites\\Info.cs*",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAmwB8AAAA9AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-15T12:41:55.133Z",
+              "WhenOpened": "2024-08-15T17:53:33.619Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "Ball.cs",
-              "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Ball.cs",
+              "DocumentMoniker": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Ball.cs",
               "RelativeDocumentMoniker": "Sprites\\Ball.cs",
-              "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Ball.cs",
+              "ToolTip": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Ball.cs",
               "RelativeToolTip": "Sprites\\Ball.cs",
-              "ViewState": "AQIAADYAAAAAAAAAAAAAAEYAAABNAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAIAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T19:40:35.991Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Player.cs",
-              "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Player.cs",
+              "DocumentMoniker": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Player.cs",
               "RelativeDocumentMoniker": "Sprites\\Player.cs",
-              "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Player.cs",
+              "ToolTip": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Player.cs",
               "RelativeToolTip": "Sprites\\Player.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAABfAAAA",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAACYAAABfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T19:09:24.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Score.cs",
-              "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Score.cs",
+              "DocumentMoniker": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Score.cs",
               "RelativeDocumentMoniker": "Sprites\\Score.cs",
-              "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Score.cs",
-              "RelativeToolTip": "Sprites\\Score.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAIAAAA",
+              "ToolTip": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Score.cs*",
+              "RelativeToolTip": "Sprites\\Score.cs*",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABcAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T18:42:37.242Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "Sprite.cs",
-              "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Sprite.cs",
+              "DocumentMoniker": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Sprite.cs",
               "RelativeDocumentMoniker": "Sprites\\Sprite.cs",
-              "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Sprites\\Sprite.cs",
+              "ToolTip": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Sprites\\Sprite.cs",
               "RelativeToolTip": "Sprites\\Sprite.cs",
-              "ViewState": "AQIAABYAAAAAAAAAAAAqwBcAAAALAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAALAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-14T17:58:27.037Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 5,
               "Title": "Pong.cs",
-              "DocumentMoniker": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Pong.cs",
+              "DocumentMoniker": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Pong.cs",
               "RelativeDocumentMoniker": "Pong.cs",
-              "ToolTip": "D:\\PROJEKTY\\01.001_pong_game\\PongGame\\Pong.cs",
+              "ToolTip": "D:\\Projects Data\\Csh Projects\\06.001_pong_game\\PongGame\\Pong.cs",
               "RelativeToolTip": "Pong.cs",
-              "ViewState": "AQIAAEwAAAAAAAAAAAAAAFcAAAASAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-11T16:52:54.924Z",
               "EditorCaption": ""

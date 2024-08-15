@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>D:/PROJEKTY/01.001_pong_game/PongGame/Content/Fonts/text_font.spritefont</SourceFile>
-  <SourceTime>2024-08-15T14:39:45.7004185+02:00</SourceTime>
-  <DestFile>D:/PROJEKTY/01.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Fonts/text_font.xnb</DestFile>
-  <DestTime>2024-08-15T14:48:35.7154609+02:00</DestTime>
+  <SourceFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/Fonts/text_font.spritefont</SourceFile>
+  <SourceTime>2024-08-15T17:44:40.4434861+02:00</SourceTime>
+  <DestFile>D:/Projects Data/Csh Projects/06.001_pong_game/PongGame/Content/bin/DesktopGL/Content/Fonts/text_font.xnb</DestFile>
+  <DestTime>2024-08-15T17:45:05.3251185+02:00</DestTime>
   <Importer>FontDescriptionImporter</Importer>
   <ImporterTime>2022-07-26T13:44:56+02:00</ImporterTime>
   <Processor>FontDescriptionProcessor</Processor>

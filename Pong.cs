@@ -22,18 +22,12 @@ namespace PongGame
         public static int ScreenHeight;
         public static Random Random;
 
-        private Rectangle playField;
-
         private SoundEffect soundTweet;
         private Song songZardax;
 
-        private SpriteFont fontDotGothic;
-        private SpriteFont fontText;
-
-        private Sprite gamePlan;
-
-        private List<Player> playerList;
-        private List<Ball> ballList;
+        public static SoundEffect levelUp;
+        public static SoundEffect wallBounce;
+        public static SoundEffect playerBounce;
 
         private Score score;
         private Info info;
@@ -64,6 +58,10 @@ namespace PongGame
             // TODO: use this.Content to load your game content here
             soundTweet = Content.Load<SoundEffect>(@"Sounds\sound_tweet");
             songZardax = Content.Load<Song>(@"Sounds\sound_zardax");
+
+            levelUp = Content.Load<SoundEffect>(@"Sounds\level_up");
+            wallBounce = Content.Load<SoundEffect>(@"Sounds\wall_bounce");
+            playerBounce = Content.Load<SoundEffect>(@"Sounds\player_bounce");
 
             score = new Score(Content.Load<SpriteFont>(@"Fonts\dot_gothic_16"));
             info = new Info(Content.Load<SpriteFont>(@"Fonts\text_font"));
