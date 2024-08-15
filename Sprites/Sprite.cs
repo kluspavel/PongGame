@@ -2,6 +2,8 @@
 using Microsoft.Xna.Framework.Graphics;
 using System.Collections.Generic;
 
+using PongGame.Models;
+
 namespace PongGame.Sprites
 {
     public class Sprite
@@ -12,7 +14,7 @@ namespace PongGame.Sprites
         public Vector2 Position;
         public Vector2 Velocity;
         public Vector2 Rotation;
-        public Vector2 Speed;
+        public float Speed;
         public Input Input;
         //----------------------------------------------------------------------------------------------------------------------------
         public Rectangle Rectangle { get { return new Rectangle((int)Position.X, (int)Position.Y, texture.Width, texture.Height); } }

@@ -1,32 +1,32 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 
 namespace PongGame.Sprites
 {
-    public class Score
+    public class Info
     {
         //----------------------------------------------------------------------------------------------------------------------------
-        public int ScoreOne;
-        public int ScoreTwo;
+        public int actualSpeed = 1;
+        public int bouceCount = 0;
         //----------------------------------------------------------------------------------------------------------------------------
         private SpriteFont font;
         //----------------------------------------------------------------------------------------------------------------------------
-        public Score(SpriteFont font) { this.font = font; }
+        public Info(SpriteFont font) { this.font = font; }
         //----------------------------------------------------------------------------------------------------------------------------
-        public void Draw(SpriteBatch spriteBatch) 
+        public void Draw(SpriteBatch spriteBatch)
         {
-            spriteBatch.DrawString(font, GetText(ScoreTwo), new Vector2(GetTextWidth(GetText(ScoreTwo), 50), 30), Color.Red);
-            spriteBatch.DrawString(font, GetText(ScoreOne), new Vector2(GetTextWidth(GetText(ScoreOne), -50), 30), Color.Blue);
+            spriteBatch.DrawString(font, "Actual speed: " + GetText(actualSpeed), new Vector2(20, 650), Color.Gray);
+            spriteBatch.DrawString(font, "Bounce count: " + GetText(bouceCount), new Vector2(20, 670), Color.Gray);
         }
         //----------------------------------------------------------------------------------------------------------------------------
-        public string GetText(int number, int numberChars = 2)
+        public string GetText(int number, int numberChars = 1)
         {
             return number.ToString().PadLeft(numberChars, '0');
-        }
-        //----------------------------------------------------------------------------------------------------------------------------
-        public float GetTextWidth(string text, float offset)
-        {
-            return Pong.ScreenWidth / 2 - font.MeasureString(text).X / 2 + offset;
         }
         //----------------------------------------------------------------------------------------------------------------------------
     }

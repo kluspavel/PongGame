@@ -4,15 +4,16 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
 
+using PongGame.Models;
+
 namespace PongGame.Sprites
 {
     public class Player : Sprite
     {
         //----------------------------------------------------------------------------------------------------------------------------
         public Player(Texture2D texture) : base(texture)
-        {
-            Speed.X = 0f; 
-            Speed.Y = 6f;
+        { 
+            Speed = 6f;
         }
         //----------------------------------------------------------------------------------------------------------------------------
         public override void Update(GameTime gameTime, List<Sprite> sprites)
@@ -26,16 +27,16 @@ namespace PongGame.Sprites
 
             if (Keyboard.GetState().IsKeyDown(Input.Up))
             {
-                Velocity.Y = -Speed.Y;
+                Velocity.Y = -Speed;
             }
             else if (Keyboard.GetState().IsKeyDown(Input.Down))
             {
-                Velocity.Y = Speed.Y;
+                Velocity.Y = Speed;
             }
 
             Position += Velocity;
 
-            Position.Y = MathHelper.Clamp(Position.Y, 0, Pong.ScreenHeight - texture.Height);
+            Position.Y = MathHelper.Clamp(Position.Y, 15, Pong.ScreenHeight - texture.Height - 15);
 
             Velocity = Vector2.Zero;
         }

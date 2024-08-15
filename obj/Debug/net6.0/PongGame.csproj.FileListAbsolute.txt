@@ -72,3 +72,4 @@ D:\PROJEKTY\01.001_pong_game\PongGame\obj\Debug\net6.0\PongGame.pdb
 D:\PROJEKTY\01.001_pong_game\PongGame\obj\Debug\net6.0\PongGame.genruntimeconfig.cache
 D:\PROJEKTY\01.001_pong_game\PongGame\obj\Debug\net6.0\ref\PongGame.dll
 D:\Projects Data\Csh Projects\06.001_pong_game\PongGame\obj\Debug\net6.0\PongGame.sourcelink.json
+D:\PROJEKTY\01.001_pong_game\PongGame\bin\Debug\net6.0\Content\Fonts\text_font.xnb

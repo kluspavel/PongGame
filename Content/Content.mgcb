@@ -41,6 +41,13 @@
 /processorParam:TextureFormat=Compressed
 /build:Fonts/play_regular.spritefont
 
+#begin Fonts/text_font.spritefont
+/importer:FontDescriptionImporter
+/processor:FontDescriptionProcessor
+/processorParam:PremultiplyAlpha=True
+/processorParam:TextureFormat=Compressed
+/build:Fonts/text_font.spritefont
+
 #begin Sounds/sound_tweet.wav
 /importer:WavImporter
 /processor:SoundEffectProcessor
